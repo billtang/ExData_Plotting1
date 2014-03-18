@@ -5,6 +5,6 @@
 # > source('plot1.R'); plot1(foo)
 #
 plot1<-function(myd) {
-    hist(myd$Global_active_power,col='red',xlab='Global Active Power',main='Global Active Power')
+    hist(myd$Global_active_power,col='red',xlab='Global Active Power (kilowatts)',main='Global Active Power')
 }
 
